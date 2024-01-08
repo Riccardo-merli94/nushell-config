@@ -547,6 +547,7 @@ alias gs = git status
 alias gd = git diff
 alias gtree = git log --graph --oneline --all
 alias gb = git branch
+alias ll = ls -la
 
 source ~/.oh-my-posh.nu
 
