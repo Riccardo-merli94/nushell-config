@@ -229,7 +229,7 @@ $env.config = {
     }
 
     cursor_shape: {
-        emacs: line # block, underscore, line, blink_block, blink_underscore, blink_line, inherit to skip setting cursor shape (line is the default)
+        emacs: block # block, underscore, line, blink_block, blink_underscore, blink_line, inherit to skip setting cursor shape (line is the default)
         vi_insert: block # block, underscore, line, blink_block, blink_underscore, blink_line, inherit to skip setting cursor shape (block is the default)
         vi_normal: underscore # block, underscore, line, blink_block, blink_underscore, blink_line, inherit to skip setting cursor shape (underscore is the default)
     }
@@ -912,5 +912,6 @@ alias gd = git diff
 alias gtree = git log --graph --oneline --all
 alias gb = git branch
 alias ll = ls -la
+alias a = php artisan
 
 source ~/.oh-my-posh.nu

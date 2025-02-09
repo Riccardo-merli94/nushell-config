@@ -101,5 +101,6 @@ $env.PATH = ($env.PATH | split row (char esep) | prepend '/usr/local/go/bin')
 $env.PATH = ($env.PATH | split row (char esep) | prepend '~/go/bin')
 $env.PATH = ($env.PATH | split row (char esep) | append "/opt/processing/processing")
 $env.PATH = ($env.PATH | split row (char esep) | append "/usr/local/phpstorm/bin")
+$env.PATH = ($env.PATH | split row (char esep) | append "~/.config/composer/vendor/bin/")
 
 oh-my-posh init nu --config ~/.poshthemes/huvix.omp.json
